@@ -11,6 +11,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student:\n\tRoll Number: " + rollno + "\n\tName: " + name + "\n\tAddress: " + address;
+        return "\nRoll # " + rollno + ", Name: " + name + ", Address: " + address;
     }
 }
